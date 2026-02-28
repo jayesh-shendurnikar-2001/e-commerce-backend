@@ -12,31 +12,6 @@ A Node.js + Express.js backend for an E-commerce application.
 - bcryptjs
 - REST API
 
----
-
-## 📂 Project Structure
-server/
-│── config/
-│ └── db.js
-│── controllers/
-|   └── authController.js
-|   └── cartController.js
-|   └── productController.js
-│── models/
-|   └── Cart.js
-|   └── Product.js
-|   └── User.js
-│── routes/
-|   └── authRoutes.js
-|   └── cartRoutes.js
-|   └── productRoutes.js
-│── middleware/
-|   └── auth.js
-|   └── errorHandler.js
-│── server.js
-
-
----
 
 ## 🌱 Seed Dummy Data
 
@@ -46,30 +21,26 @@ This project includes a **seed file** to insert dummy data into MongoDB.
 - node seed.js
 
 ## ⚙️ Installation
+<br>
 
 1️⃣ Clone the repository
-
-```bash
 git clone https://github.com/jayesh-shendurnikar-2001/e-commerce-backend.git
 
 2️⃣ Go to project folder
-
 cd server
 
 3️⃣ Install dependencies
-
 npm install
 
 4️⃣ Create .env file
-
 PORT=5000
 MONGO_URI=your_mongodb_connection
 JWT_SECRET=your_secret_key
 
 5️⃣ Run the server
-
 npm run dev
 
+<br>
 
 🔐 Features
 
