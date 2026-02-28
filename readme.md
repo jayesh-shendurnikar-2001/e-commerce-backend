@@ -38,7 +38,7 @@ MONGO_URI=your_mongodb_connection
 JWT_SECRET=your_secret_key
 
 5️⃣ Run the server
-npm run dev
+npm start
 
 <br>
 
